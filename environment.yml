@@ -1,0 +1,42 @@
+name: earthmover-demos
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - dask
+  - distributed
+  - jupyter
+  - scipy
+  - s3fs
+  - netcdf4
+  - h5netcdf
+  - pandas
+  - pydap
+  - matplotlib
+  - seaborn
+  - numcodecs
+  - coiled
+  - xarray
+  - flox
+  - cftime
+  - nc-time-axis
+  - numbagg
+  - arraylake
+  - pooch
+  - jq
+  - zarr>=3
+  - arraylake
+  - icechunk
+  - xvec
+  - maplibre
+  - ipyleaflet
+  - anywidget
+  - geopandas
+  - hvplot
+  - tiledb-py
+  - obstore
+  - polars
+  - pip:
+    - pcodec
+    - tensorstore 
